@@ -14,7 +14,7 @@ operator=""
 def clickbut(number):   #lambda:clickbut(1)
      global operator
      temp =operator
-     if number=="^":
+     if number=="^":# for chceking the power of a given number
          temp=operator+str(number)
          textin.set(temp)
          operator=operator+str("**")
